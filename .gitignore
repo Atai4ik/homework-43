@@ -10,8 +10,8 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
-.idea/
 .vscode/
+.idea/
 develop-eggs/
 dist/
 downloads/
