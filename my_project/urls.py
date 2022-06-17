@@ -16,11 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from firstapp.views import index_view, my_folio_view, lorem_view
+from firstapp.views import index_view, my_folio_view, lorem_view, elon_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index_view),
-    path('my_folio', my_folio_view),
-    path('lorem', lorem_view)
+    path('templates/elon.html', elon_view),
+    path('templates/my_folio.html', my_folio_view),
+    path('templates/lorem.html', lorem_view)
 ]
